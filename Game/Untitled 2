@@ -1,0 +1,11 @@
+[
+{ //case-1 ball interaction
+  (ballrect.intersects(brickrect)->score+=5;
+  (ballrect.intersects(brickrect)->totalcapstone--;
+  //case-2 paddle movement
+  (e.getKeyCode()==KeyEvent.VK_LEFT)=moveleft();
+  (e.getKeyCode()==KeyEvent.VK_RIGHT)=moveright();
+  //case-3 gameover
+  (ballposy>570)=play(false);
+  }
+  ]
